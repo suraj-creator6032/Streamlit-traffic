@@ -119,7 +119,8 @@ if uploaded_file is not None:
                 project="runs",
                 name="traffic",
                 exist_ok=True,
-                verbose=False
+                verbose=False,
+                stream=True
             )
 
             # -------------------------------------------------
